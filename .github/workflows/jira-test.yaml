@@ -11,6 +11,8 @@ permissions:
 jobs:
   create_jira_issue:
     runs-on: ubuntu-latest
+        # runs-on: ubuntu-latest
+
 
     steps:
       - name: Checkout repository
